@@ -2,12 +2,34 @@
   "color": {
     "base": {
       "gray": {
-        "light" : { "value": "#CCCCCC" },
-        "medium": { "value": "#999999" },
-        "dark"  : { "value": "#111111" }
+        "light": {
+          "value": "#CCCCCC",
+          "type": "other"
+        },
+        "medium": {
+          "value": "#999999",
+          "type": "other"
+        },
+        "dark": {
+          "value": "#111111",
+          "type": "other"
+        }
       },
-      "red": { "value": "#FF0000" },
-      "green": { "value": "#00FF00" }
+      "red": {
+        "value": "#FF0000",
+        "type": "other"
+      },
+      "green": {
+        "value": "#76d62a6e",
+        "type": "color",
+        "description": "Product Green"
+      }
     }
+  },
+  "$themes": [],
+  "$metadata": {
+    "tokenSetOrder": [
+      "color"
+    ]
   }
 }
